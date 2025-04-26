@@ -1,0 +1,346 @@
+2025-04-25 14:48:42,494 - INFO - Initialized safe_traffic.log
+2025-04-25 14:48:42,495 - INFO - Initialized unsafe_traffic.log
+2025-04-25 14:48:42,495 - INFO - Starting Flask app
+2025-04-25 14:48:42,573 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.10:5000
+2025-04-25 14:48:42,574 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-25 14:48:42,578 - INFO -  * Restarting with stat
+2025-04-25 14:48:49,674 - INFO - Initialized safe_traffic.log
+2025-04-25 14:48:49,675 - INFO - Initialized unsafe_traffic.log
+2025-04-25 14:48:49,676 - INFO - Starting Flask app
+2025-04-25 14:48:49,692 - WARNING -  * Debugger is active!
+2025-04-25 14:48:49,696 - INFO -  * Debugger PIN: 114-100-839
+2025-04-25 14:49:00,536 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:00] "GET / HTTP/1.1" 200 -
+2025-04-25 14:49:00,612 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:00] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-25 14:49:00,645 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:00] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-25 14:49:01,094 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-25 14:49:09,249 - INFO - 127.0.0.1 - - [25/Apr/2025 14:49:09] "GET / HTTP/1.1" 200 -
+2025-04-25 14:49:09,271 - INFO - 127.0.0.1 - - [25/Apr/2025 14:49:09] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-25 14:49:09,276 - INFO - 127.0.0.1 - - [25/Apr/2025 14:49:09] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-25 14:49:09,287 - INFO - 127.0.0.1 - - [25/Apr/2025 14:49:09] "[33mGET /static/background.mp3 HTTP/1.1[0m" 404 -
+2025-04-25 14:49:09,297 - INFO - 127.0.0.1 - - [25/Apr/2025 14:49:09] "[35m[1mGET /static/activate.mp3 HTTP/1.1[0m" 206 -
+2025-04-25 14:49:09,299 - INFO - 127.0.0.1 - - [25/Apr/2025 14:49:09] "[35m[1mGET /static/deactivate.mp3 HTTP/1.1[0m" 206 -
+2025-04-25 14:49:09,972 - INFO - 127.0.0.1 - - [25/Apr/2025 14:49:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-25 14:49:11,449 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:11] "[35m[1mGET /static/activate.mp3 HTTP/1.1[0m" 206 -
+2025-04-25 14:49:11,450 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:11] "[35m[1mGET /static/deactivate.mp3 HTTP/1.1[0m" 206 -
+2025-04-25 14:49:11,451 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:11] "[33mGET /static/background.mp3 HTTP/1.1[0m" 404 -
+2025-04-25 14:49:54,286 - INFO - IDS started
+2025-04-25 14:49:54,286 - INFO - Safe traffic log read successfully
+2025-04-25 14:49:54,293 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:54] "POST /start HTTP/1.1" 200 -
+2025-04-25 14:49:54,296 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:49:54,311 - INFO - Graph data prepared: 0 entries
+2025-04-25 14:49:54,313 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-25 14:49:54,314 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:49:54,314 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:54] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:49:54,637 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:49:54,639 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:49:54,640 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:49:54
+Source IP: 192.168....
+2025-04-25 14:49:54,648 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:49:54,648 - INFO - Processed real-time traffic: 2025-04-25 14:49:54
+2025-04-25 14:49:55,293 - INFO - Safe traffic log read successfully
+2025-04-25 14:49:55,294 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:49:55,294 - INFO - Graph data prepared: 1 entries
+2025-04-25 14:49:55,294 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:49:55,295 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:55] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:49:56,298 - INFO - Safe traffic log read successfully
+2025-04-25 14:49:56,299 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:49:56,300 - INFO - Graph data prepared: 1 entries
+2025-04-25 14:49:56,301 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:49:56,302 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:56] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:49:57,296 - INFO - Safe traffic log read successfully
+2025-04-25 14:49:57,297 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:49:57,297 - INFO - Graph data prepared: 1 entries
+2025-04-25 14:49:57,297 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:49:57,298 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:57] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:49:58,308 - INFO - Safe traffic log read successfully
+2025-04-25 14:49:58,309 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:49:58,310 - INFO - Graph data prepared: 1 entries
+2025-04-25 14:49:58,312 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:49:58,314 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:58] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:49:59,111 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:59] "[35m[1mGET /static/activate.mp3 HTTP/1.1[0m" 206 -
+2025-04-25 14:49:59,116 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:59] "[35m[1mGET /static/activate.mp3 HTTP/1.1[0m" 206 -
+2025-04-25 14:49:59,305 - INFO - Safe traffic log read successfully
+2025-04-25 14:49:59,307 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:49:59,307 - INFO - Graph data prepared: 1 entries
+2025-04-25 14:49:59,307 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:49:59,309 - INFO - 192.168.0.10 - - [25/Apr/2025 14:49:59] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:00,061 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:00,062 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:00,063 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:00
+Source IP: 192.168....
+2025-04-25 14:50:00,082 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:00,082 - INFO - Processed real-time traffic: 2025-04-25 14:50:00
+2025-04-25 14:50:00,314 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:00,315 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:00,315 - INFO - Graph data prepared: 2 entries
+2025-04-25 14:50:00,316 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:00,318 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:00] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:00,794 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:00,794 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:00,795 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:00
+Source IP: 192.168....
+2025-04-25 14:50:00,812 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:00,812 - INFO - Processed real-time traffic: 2025-04-25 14:50:00
+2025-04-25 14:50:01,313 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:01,314 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:01,314 - INFO - Graph data prepared: 3 entries
+2025-04-25 14:50:01,315 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:01,316 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:01] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:01,591 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:01,592 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:01,593 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:01
+Source IP: 192.168....
+2025-04-25 14:50:01,606 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:01,607 - INFO - Processed real-time traffic: 2025-04-25 14:50:01
+2025-04-25 14:50:02,327 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:02,328 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:02,328 - INFO - Graph data prepared: 4 entries
+2025-04-25 14:50:02,329 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:02,331 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:02] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:02,370 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:02,372 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:02,375 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:02
+Source IP: 57.144.1...
+2025-04-25 14:50:02,398 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:02,398 - INFO - Processed real-time traffic: 2025-04-25 14:50:02
+2025-04-25 14:50:03,327 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:03,327 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:03,328 - INFO - Graph data prepared: 5 entries
+2025-04-25 14:50:03,329 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:03,330 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:03] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:04,329 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:04,329 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:04,330 - INFO - Graph data prepared: 5 entries
+2025-04-25 14:50:04,330 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:04,332 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:04] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:04,798 - INFO - Traffic analyzed: Prediction=1, Attack=SQL Injection, Score=1.04
+2025-04-25 14:50:04,798 - INFO - Attempting to write to unsafe_traffic.log
+2025-04-25 14:50:04,799 - INFO - Successfully wrote to unsafe_traffic.log: Timestamp: 2025-04-25 14:50:04
+Source IP: 192.168....
+2025-04-25 14:50:04,817 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:04,817 - INFO - Processed real-time traffic: 2025-04-25 14:50:04
+2025-04-25 14:50:05,331 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:05,332 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:05,333 - INFO - Graph data prepared: 6 entries
+2025-04-25 14:50:05,335 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:05,339 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:05] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:06,341 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:06,342 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:06,342 - INFO - Graph data prepared: 6 entries
+2025-04-25 14:50:06,344 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:06,345 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:06] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:07,343 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:07,344 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:07,344 - INFO - Graph data prepared: 6 entries
+2025-04-25 14:50:07,345 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:07,346 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:07] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:08,090 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:08,090 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:08,092 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:08
+Source IP: 192.168....
+2025-04-25 14:50:08,110 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:08,110 - INFO - Processed real-time traffic: 2025-04-25 14:50:08
+2025-04-25 14:50:08,354 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:08,356 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:08,356 - INFO - Graph data prepared: 7 entries
+2025-04-25 14:50:08,357 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:08,358 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:08] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:08,618 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:08,619 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:08,621 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:08
+Source IP: 192.168....
+2025-04-25 14:50:08,633 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:08,634 - INFO - Processed real-time traffic: 2025-04-25 14:50:08
+2025-04-25 14:50:09,232 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:09,233 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:09,234 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:09
+Source IP: 140.82.1...
+2025-04-25 14:50:09,260 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:09,261 - INFO - Processed real-time traffic: 2025-04-25 14:50:09
+2025-04-25 14:50:09,358 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:09,358 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:09,359 - INFO - Graph data prepared: 9 entries
+2025-04-25 14:50:09,359 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:09,360 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:09] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:10,272 - INFO - Traffic analyzed: Prediction=0, Attack=None, Score=1.02
+2025-04-25 14:50:10,272 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:10,273 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:10
+Source IP: 192.168....
+2025-04-25 14:50:10,296 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:10,296 - INFO - Processed real-time traffic: 2025-04-25 14:50:10
+2025-04-25 14:50:10,372 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:10,374 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:10,375 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:10,376 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:10,376 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:10] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:10,833 - INFO - Traffic analyzed: Prediction=0, Attack=None, Score=0.59
+2025-04-25 14:50:10,833 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:10,836 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:10
+Source IP: 8.8.8.8,...
+2025-04-25 14:50:10,858 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:10,858 - INFO - Processed real-time traffic: 2025-04-25 14:50:10
+2025-04-25 14:50:11,373 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:11,374 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:11,374 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:11,375 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:11,376 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:11] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:11,588 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:11,589 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:11,590 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:11
+Source IP: 35.217.1...
+2025-04-25 14:50:11,600 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:11,601 - INFO - Processed real-time traffic: 2025-04-25 14:50:11
+2025-04-25 14:50:12,303 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:12,304 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:12,305 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:12
+Source IP: 192.168....
+2025-04-25 14:50:12,321 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:12,322 - INFO - Processed real-time traffic: 2025-04-25 14:50:12
+2025-04-25 14:50:12,375 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:12,376 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:12,376 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:12,377 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:12,378 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:12] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:13,121 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:13,122 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:13,124 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:13
+Source IP: 140.82.1...
+2025-04-25 14:50:13,142 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:13,142 - INFO - Processed real-time traffic: 2025-04-25 14:50:13
+2025-04-25 14:50:13,379 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:13,380 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:13,380 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:13,381 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:13,383 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:13] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:13,749 - INFO - Traffic analyzed: Prediction=0, Attack=None, Score=1.14
+2025-04-25 14:50:13,750 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:13,753 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:13
+Source IP: 192.168....
+2025-04-25 14:50:13,773 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:13,774 - INFO - Processed real-time traffic: 2025-04-25 14:50:13
+2025-04-25 14:50:14,386 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:14,389 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:14,390 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:14,390 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:14,392 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:14] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:15,053 - INFO - Traffic analyzed: Prediction=0, Attack=None, Score=1.02
+2025-04-25 14:50:15,054 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:15,056 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:15
+Source IP: 192.168....
+2025-04-25 14:50:15,076 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:15,076 - INFO - Processed real-time traffic: 2025-04-25 14:50:15
+2025-04-25 14:50:15,390 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:15,391 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:15,391 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:15,392 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:15,393 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:15] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:15,825 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:15,825 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:15,827 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:15
+Source IP: 192.168....
+2025-04-25 14:50:15,847 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:15,848 - INFO - Processed real-time traffic: 2025-04-25 14:50:15
+2025-04-25 14:50:16,392 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:16,392 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:16,393 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:16,395 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:16,397 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:16] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:16,546 - INFO - Traffic analyzed: Prediction=0, Attack=None, Score=1.02
+2025-04-25 14:50:16,547 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:16,548 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:16
+Source IP: 192.168....
+2025-04-25 14:50:16,575 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:16,576 - INFO - Processed real-time traffic: 2025-04-25 14:50:16
+2025-04-25 14:50:17,405 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:17,406 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:17,406 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:17,408 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:17,409 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:17] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:17,540 - INFO - Traffic analyzed: Prediction=0, Attack=None, Score=1.02
+2025-04-25 14:50:17,540 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:17,540 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:17
+Source IP: 192.168....
+2025-04-25 14:50:17,558 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:17,559 - INFO - Processed real-time traffic: 2025-04-25 14:50:17
+2025-04-25 14:50:18,403 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:18,404 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:18,404 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:18,406 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:18,408 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:18] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:19,406 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:19,407 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:19,407 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:19,408 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:19,409 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:19] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:20,405 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:20,406 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:20,407 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:20,407 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:20,408 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:20] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:21,086 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:21,086 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:21,088 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:21
+Source IP: 192.168....
+2025-04-25 14:50:21,103 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:21,104 - INFO - Processed real-time traffic: 2025-04-25 14:50:21
+2025-04-25 14:50:21,416 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:21,419 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:21,419 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:21,420 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:21,421 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:21] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:22,419 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:22,420 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:22,420 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:22,420 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:22,422 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:22] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:22,442 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:22,442 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:22,444 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:22
+Source IP: 192.168....
+2025-04-25 14:50:22,468 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:22,468 - INFO - Processed real-time traffic: 2025-04-25 14:50:22
+2025-04-25 14:50:23,425 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:23,426 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:23,426 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:23,427 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:23,427 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:23] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:24,413 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:24,414 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:24,417 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:24
+Source IP: 192.168....
+2025-04-25 14:50:24,441 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:24,442 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:24,443 - INFO - Processed real-time traffic: 2025-04-25 14:50:24
+2025-04-25 14:50:24,443 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:24,444 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:24,445 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:24,447 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:24] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:25,436 - INFO - Safe traffic log read successfully
+2025-04-25 14:50:25,437 - INFO - Unsafe traffic log read successfully
+2025-04-25 14:50:25,438 - INFO - Graph data prepared: 10 entries
+2025-04-25 14:50:25,439 - ERROR - Error reading traffic_chain.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:25,441 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:25] "GET /logs HTTP/1.1" 200 -
+2025-04-25 14:50:25,775 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:25,775 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:25,777 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:25
+Source IP: 192.168....
+2025-04-25 14:50:25,790 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:25,791 - INFO - Processed real-time traffic: 2025-04-25 14:50:25
+2025-04-25 14:50:26,373 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:26] "[35m[1mGET /static/deactivate.mp3 HTTP/1.1[0m" 206 -
+2025-04-25 14:50:26,378 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:26] "[35m[1mGET /static/deactivate.mp3 HTTP/1.1[0m" 206 -
+2025-04-25 14:50:26,479 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:26] "[35m[1mPOST /stop HTTP/1.1[0m" 500 -
+2025-04-25 14:50:27,428 - ERROR - Error analyzing traffic: float() argument must be a string or a real number, not 'FlagValue'
+2025-04-25 14:50:27,429 - INFO - Attempting to write to safe_traffic.log
+2025-04-25 14:50:27,431 - INFO - Successfully wrote to safe_traffic.log: Timestamp: 2025-04-25 14:50:27
+Source IP: 192.168....
+2025-04-25 14:50:27,456 - ERROR - Error saving to traffic_data.json: Expecting value: line 1 column 1 (char 0)
+2025-04-25 14:50:27,456 - INFO - Processed real-time traffic: 2025-04-25 14:50:27
+2025-04-25 14:50:29,606 - INFO - Cleared safe_traffic.log
+2025-04-25 14:50:29,607 - INFO - Cleared unsafe_traffic.log
+2025-04-25 14:50:29,608 - INFO - Cleared traffic_data.json
+2025-04-25 14:50:29,609 - INFO - Cleared traffic_chain.json
+2025-04-25 14:50:29,610 - ERROR - Error during reset: 'Blockchain' object has no attribute 'reset_chain'
+2025-04-25 14:50:29,611 - INFO - 192.168.0.10 - - [25/Apr/2025 14:50:29] "[35m[1mPOST /reset HTTP/1.1[0m" 500 -
